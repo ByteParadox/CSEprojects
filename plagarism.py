@@ -13,8 +13,8 @@ def preprocess_text(text):
     return text
 
 # Load documents from database
-job_description = docx2txt.process('/content/B-41-44&54.docx')
-resume = docx2txt.process('/content/b-70-73.docx')
+job_description = docx2txt.process('path of your file')
+resume = docx2txt.process('path of your file')
 
 # Preprocess documents
 job_description = preprocess_text(job_description)
@@ -50,7 +50,7 @@ def check_plagiarism(submitted_text, threshold=0.8):
         return False
 
 # Example usage
-submitted_text = docx2txt.process('/content/submitted_resume.docx')
+submitted_text = docx2txt.process('path of your file')
 if check_plagiarism(submitted_text):
     print("Plagiarism detected!")
 else:
