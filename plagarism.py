@@ -1,6 +1,6 @@
 # Install required packages
 #!pip install docx2txt PyPDF2
-
+#https://colab.research.google.com/drive/1Plky72n_ujzZg68MZs3TCXa9ggwxPcSM#scrollTo=ewDETL-U6Cpc
 import docx2txt
 import PyPDF2
 from sklearn.feature_extraction.text import CountVectorizer
