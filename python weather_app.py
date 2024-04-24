@@ -1,7 +1,6 @@
 import requests
 from tkinter import *
 from PIL import Image, ImageTk
-
 # Function to fetch weather data from OpenWeatherMap API
 def get_weather(city):
     api_key = "78d69fcd13dfbf641bab70913a335058"
